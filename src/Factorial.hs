@@ -25,7 +25,8 @@ module
 Factorial
 (
  -- Functions that should be exported from this module.
- factorial
+ factorial,
+ factorial_new
 )
 where
 
@@ -85,7 +86,7 @@ factorial_new    x
             -- Get the value from the Maybe x_next_maybe.
             --
             -- 0 is the default value for the fromMaybe function. It will be used in the case where
-            -- the function's second argument is equal to Nothing.
+            -- the fromMaybe function's second argument is equal to Nothing.
 
             x_next = fromMaybe 0 x_next_maybe
 
