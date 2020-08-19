@@ -1,0 +1,4 @@
+# Instruct git to ignore the following files.
+
+src/*.hi
+src/*.o
